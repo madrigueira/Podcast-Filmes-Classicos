@@ -1,5 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+// FONTES
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap");
+
+//  CORES
+$text: #4c4741;
+$bg: #f6efd7;
+$primary: #e77843;
+$secondary: #4c4741;
+$accent: #915344;
+
+// MIXES
+@mixin flex() {
+  display: flex;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Wix Madefor Display", sans-serif;
+  color: $text;
 }
